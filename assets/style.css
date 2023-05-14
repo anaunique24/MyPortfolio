@@ -1,6 +1,18 @@
-/* .header {
+.header {
     display: flex;
     background-color: rgb(47, 47, 52);
     color: rgb(47, 47, 52);
     padding: 20px;
-} */
+}
+.links {
+    color: rgba(87, 106, 79, 0.983);
+}
+
+.myimage {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url(../Images/B&WImage107\ 2.JPG);
+    background-size: cover;
+    background-position: center;
+}
