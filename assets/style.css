@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -22,9 +23,7 @@ header {
 
 .header div {
 padding-top: 15px;
-margin-right: 20px;
 float: right;
-font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 }
 
@@ -38,11 +37,13 @@ a {
     color: beige;
     font-size: 20px;
 }
+
 div {
     position: relative;
 }
+
 .myimage {
-    height: 600px;
+    height: 500px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -50,36 +51,36 @@ div {
 .bottom-right {
     position: absolute;
     bottom: 40px;
-    font-size: 25px;
+    font-size: 15px;
     right: 16px;
     color: beige;
 }
 
 main {
-    /* border-right: 3px solid rgb(55, 55, 55); */
     padding-left: 20px;
 }
+
 h2 {
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
     flex-wrap: wrap;
-    height: 150px;
     color: rgb(55, 55, 55);
-    /* padding-left: 50px; */
-    align-items: 50px;
 }
 
 p {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    /* padding-left: 40px; */
-    
+    font-size:16px;
+    padding: 75px;
 }
+
 .contact {
-    padding: 15px;
     text-align: center;
     font-size: 30px;
+    float: right;
 }
+
 section li {
-    padding: 20px;
+    padding: 40px;
+}
+
+ul {
+    color: rgb(59, 59, 59);
 }
