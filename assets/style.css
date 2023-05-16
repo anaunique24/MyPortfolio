@@ -62,50 +62,77 @@ main {
 
 h2 {
     font-size: 50px;
-    color: rgb(55, 55, 55);
-    width: 300px;
+    width: 30%;
     height: 100px;
     border-right: 3px solid;
     padding: 15px;
-    /* border-top-left-radius: 25%;
-    border-bottom-right-radius: 25% */
 }
 
 p {
     font-size:16px;
-    padding: 0px 10px 0px 350px;
-    float: right;
+    padding: 0px 10px 0px 50px;
+    width: 70%;
 }
 
-/* h4 {
+h4 {
     font-size:16px;
-    /* padding: 0px 0px 10px 350px; */
-    /* float: right;
-} */
+    padding: 0px 0px 10px 40px;
+    font-weight: lighter;
+} 
 
-img.project {
-    height: 400px;
-    width: 400px;
-    margin-left: 400px;
-    margin-top: 50px;
-    /* margin-bottom: 10px; */
+.project {
+    height: 330px;
+    width: 330px;
+    margin-left: 40px;
 }
+
+.newproject {
+    font-size:16px;
+    padding: 0px 0px 10px 420px;
+    font-weight: lighter;
+}
+
 a:hover {
-    background-color: gray;
+    background-color: rgb(84, 84, 84);
 }
+
 .contact {
     text-align: center;
     font-size: 30px;
     float: right;
+}
+ul.myinfo{
+    padding: 0px 10px 0px 50px;
+}
+
+a.contact{
+    text-decoration: underline;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
 }
 
 section li {
     padding: 40px;
 }
 
-ul {
-    color: rgb(59, 59, 59);
+#About-Me{
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
+#Work{
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Contact-Me{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
 
 
 @media screen and (max-width: 992px) {
@@ -127,3 +154,5 @@ ul {
       background-color:gray;
     }
   }
+
+  /* ask how to hover the second img and why the border isnt working on the "work" section */
