@@ -90,6 +90,9 @@ img.project {
     margin-top: 50px;
     /* margin-bottom: 10px; */
 }
+a:hover {
+    background-color: gray;
+}
 .contact {
     text-align: center;
     font-size: 30px;
