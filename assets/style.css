@@ -65,12 +65,12 @@ h2 {
     width: 30%;
     height: 100px;
     border-right: 3px solid;
-    padding: 15px;
+    padding-left: 100px;
 }
 
 p {
     font-size:16px;
-    padding: 0px 10px 0px 50px;
+    padding: 0px 10px 0px 40px;
     width: 70%;
 }
 
@@ -100,15 +100,20 @@ a:hover {
     width: 30%;
     height: 400px;
     border-right: 3px solid;
+    padding-left: 215px;
+}
+
+.myinfo {
+    width: 30%;
+    height: 150px;
+    border-right: 3px solid;
+    padding-left: 150px;
 }
 
 .contact {
     text-align: center;
     font-size: 30px;
     float: right;
-}
-ul.myinfo{
-    padding: 0px 10px 0px 50px;
 }
 
 a.contact{
