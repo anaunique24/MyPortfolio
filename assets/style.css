@@ -153,21 +153,12 @@ footer {
 
 
 @media screen and (max-width: 992px) {
-    header {
-      background: gray;
-    }
-  }
-  
-  /* Large smartphones */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: gray;
-    }
-  }
-  
-  /* Small smartphones */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color:gray;
-    }
-  }
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+
+}
