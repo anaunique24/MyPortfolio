@@ -88,7 +88,6 @@ h4 {
 
 .newproject {
     font-size:16px;
-    padding: 0px 0px 10px 420px;
     font-weight: lighter;
 }
 
@@ -179,6 +178,7 @@ footer {
         width: 100%;
         border-bottom: 4px solid;
         border-right: none;
+        text-align: left;
     }
     p {
         padding-top: 10%;
@@ -188,19 +188,22 @@ footer {
         border-bottom: 4px solid;
         border-right: none;
         padding-left: none;
+        text-align: left;
     }
     .myinfo {
         width: 100%;
         border-bottom: 4px solid;
         border-right: none;
+        text-align: left;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 428px) {
     h2 {
         width: 100%;
         border-bottom: 4px solid;
         border-right: none;
+        text-align: left;
     }
     p {
         padding-top: 10%;
@@ -210,10 +213,12 @@ footer {
         border-bottom: 4px solid;
         border-right: none;
         padding-left: none;
+        text-align: left;
     }
     .myinfo {
         width: 100%;
         border-bottom: 4px solid;
         border-right: none;
+        text-align: left;
     }
 }
